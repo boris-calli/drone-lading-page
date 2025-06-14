@@ -1,0 +1,90 @@
+.gallery-section {
+  @media screen and (min-width: 992px) {
+    padding-bottom: 75px;
+    padding-top: 75px;
+  }
+  .gallery-side {
+    .gallery-side__mosaic-side {
+      display: grid;
+      gap: 20px;
+      grid-template-rows: repeat(4, 330px);
+      @media screen and (min-width: 768px) {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2, 330px);
+      }
+      @media screen and (min-width: 1200px) {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: "drone-01 drone-02 drone-04" "drone-01 drone-03 drone-04";
+      }
+      .mosaic-side__gallery-img {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        &:hover {
+          .mosaic-side__hover-card {
+            opacity: 1;
+          }
+        }
+        .mosaic-side__hover-card {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          height: 100%;
+          background-color: hsla(0, 0%, 0%, 0.5);
+          opacity: 0;
+          transition: opacity 0.2s ease;
+          h3 {
+            font-size: 2.491em;
+            font-weight: 400;
+            color: var(--btn-text-clr-white);
+            margin-bottom: 0;
+            padding-bottom: 35px;
+          }
+          .hover-card__btn-section {
+            display: flex;
+            gap: 18px;
+            button {
+              font-size: 0.997em;
+              font-family: var(--font-ubuntu-sans);
+              padding: 26.05px 0;
+              width: 143px;
+              color: var(--btn-text-clr-black);
+              background-color: var(--btn-bg-clr-white);
+              border: solid 1px var(--btn-bg-clr-white);
+              transition: background 0.2s ease, color 0.2s ease;
+              &:hover {
+                background-color: transparent;
+                color: var(--btn-text-clr-white);
+              }
+            }
+          }
+        }
+        &:nth-of-type(1) {
+          background-image: url("./../images/gallery-section/drone-img-01.png");
+          @media screen and (min-width: 1200px) {
+            grid-area: drone-01;
+          }
+        }
+        &:nth-of-type(2) {
+          background-image: url("./../images/gallery-section/drone-img-02.png");
+          @media screen and (min-width: 1200px) {
+            grid-area: drone-02;
+          }
+        }
+        &:nth-of-type(3) {
+          background-image: url("./../images/gallery-section/drone-img-03.png");
+          @media screen and (min-width: 1200px) {
+            grid-area: drone-03;
+          }
+        }
+        &:nth-of-type(4) {
+          background-image: url("./../images/gallery-section/drone-img-04.png");
+          @media screen and (min-width: 1200px) {
+            grid-area: drone-04;
+          }
+        }
+      }
+    }
+  }
+}

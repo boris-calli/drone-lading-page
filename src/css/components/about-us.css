@@ -1,0 +1,38 @@
+.about-us-section {
+  background-color: var(--bg-clr-gray);
+  .about-us-side {
+    .about-us-side__info-side {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      h2 {
+        span {
+          font-weight: 700;
+        }
+      }
+      p {
+        color: var(--text-clr-dark-gray);
+        font-size: 1.25em;
+        line-height: 37.99px;
+        margin-bottom: 0;
+        padding-top: 26px;
+        padding-bottom: 32px;
+        @media screen and (min-width: 992px) {
+          padding-top: 52px;
+          padding-bottom: 64px;
+        }
+      }
+      button {
+        color: var(--btn-text-clr-white);
+        border: none;
+        display: block;
+        width: 100%;
+        @media screen and (min-width: 768px) {
+          display: inline-block;
+          width: auto;
+        }
+      }
+    }
+  }
+}

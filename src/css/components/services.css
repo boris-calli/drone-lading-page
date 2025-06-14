@@ -1,0 +1,96 @@
+.services-section {
+  background-color: var(--bg-clr-gray);
+  @media screen and (min-width: 992px) {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+  .services-side {
+    row-gap: 1rem;
+    .services-side__service {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      @media screen and (min-width: 992px) {
+        justify-content: left;
+      }
+      .services-side__service-img {
+        height: 124px;
+        display: flex;
+        align-items: end;
+        width: 40%;
+        @media screen and (min-width: 768px) {
+          width: auto;
+        }
+        img {
+          max-height: 100%;
+        }
+      }
+      article {
+        width: 60%;
+        @media screen and (min-width: 768px) {
+          width: auto;
+        }
+        h4 {
+          margin-bottom: 0;
+          color: var(--title-service-clr-black);
+          font-size: 2.18em;
+          font-weight: 400;
+          padding-bottom: 1.875rem;
+        }
+        button {
+          border: none;
+          display: block;
+          width: 100%;
+          @media screen and (min-width: 768px) {
+            display: inline-block;
+          }
+        }
+      }
+      &:nth-of-type(1) {
+        article {
+          @media screen and (min-width: 992px) {
+            padding-left: 60px;
+          }
+          @media screen and (min-width: 1200px) {
+            padding-left: 30px;
+          }
+          @media screen and (min-width: 1400px) {
+            padding-left: 60px;
+          }
+        }
+      }
+      &:nth-of-type(2) {
+        @media screen and (min-width: 1200px) {
+          justify-content: center;
+        }
+        @media screen and (min-width: 992px) {
+          justify-content: end;
+        }
+        article {
+          @media screen and (min-width: 992px) {
+            padding-left: 45px;
+          }
+          @media screen and (min-width: 1200px) {
+            padding-left: 30px;
+          }
+          @media screen and (min-width: 1400px) {
+            padding-left: 45px;
+          }
+        }
+      }
+      &:nth-of-type(3) {
+        article {
+          @media screen and (min-width: 768px) {
+            padding-left: 60px;
+          }
+          @media screen and (min-width: 1200px) {
+            padding-left: 30px;
+          }
+          @media screen and (min-width: 1400px) {
+            padding-left: 60px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.fields-section {
+  .fields-side {
+    .fields-side__description {
+      font-size: 1.25em;
+      color: var(--text-clr-dark-gray);
+      margin-bottom: 0;
+      padding-bottom: 45px;
+      padding-top: 25px;
+      max-width: 910px;
+      @media screen and (min-width: 992px) {
+        padding-bottom: 90px;
+      }
+    }
+    .fields-side__article-post-section {
+      .article-post {
+        &:nth-of-type(1) {
+          .article-post__image {
+            background-image: url("./../images/fields-section/agriculture-img.png");
+          }
+        }
+        &:nth-of-type(2) {
+          .article-post__image {
+            background-image: url("./../images/fields-section/enterprise-img.png");
+          }
+        }
+        &:nth-of-type(3) {
+          .article-post__image {
+            background-image: url("./../images/fields-section/video-production-img.png");
+          }
+        }
+        .article-post__image {
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+        }
+      }
+    }
+  }
+}

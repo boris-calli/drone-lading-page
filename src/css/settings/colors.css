@@ -1,0 +1,39 @@
+:root {
+  /* background colors */
+  --bg-clr-white: hsl(0, 0%, 100%);
+  --bg-clr-black: hsl(0, 0%, 0%);
+  --bg-clr-gray: hsl(0, 0%, 92.94%);
+
+  /* button background colors */
+  --btn-bg-clr-dark-salmon: hsl(14.66, 64.53%, 60.2%);
+  --btn-bg-clr-black: hsl(0, 0%, 0%);
+  --btn-bg-clr-white: hsl(0, 0%, 100%);
+  --btn-text-clr-black: hsl(0, 0%, 0.39%);
+  --btn-text-clr-white: hsl(0, 0%, 100%);
+  --btn-text-clr-light-gray: hsl(0, 0%, 89.8%);
+
+  /* input placeholder colors */
+  --input-text-clr-dark-gray: hsl(0, 0%, 70.59%);
+  --input-bg-clr-light-gray: hsl(0, 0%, 92.94%);
+
+  /* burger btn colors */
+  --burger-btn-bg-clr-black: hsl(0, 0%, 0%);
+  --burger-btn-bg-clr-white: hsl(0, 0%, 100%);
+
+  /* heading text colors */
+  --title-section-clr-black: hsl(0, 0%, 7.06%);
+  --title-hero-clr-black: hsl(0, 0%, 6.67%);
+  --title-service-clr-black: hsl(0, 0%, 7.06%);
+  --title-post-clr-black: hsl(0, 0%, 7.06%);
+  --subtitle-subscribe-us-clr-dark-gray: hsl(0, 0%, 28.24%);
+
+  /* nav link colors */
+  --header-link-normal-clr-dark-gray: hsl(0, 0%, 58.82%);
+  --header-link-normal-clr-black: hsl(0, 0%, 6.67%);
+  --header-link-hover-clr-dark-salmon: hsl(14.66, 64.53%, 60.2%);
+  --post-link-clr-dark-salmon: hsl(14.66, 64.53%, 60.2%);
+  --footer-link-clr-dark-gray: hsl(0, 0%, 37.65%);
+
+  /* paragraph text colors */
+  --text-clr-dark-gray: hsl(0, 0%, 37.65%);
+}

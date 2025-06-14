@@ -1,0 +1,19 @@
+.custom-btn {
+  font-size: 1.25em;
+  padding-top: 1.281rem;
+  padding-bottom: 1.281rem;
+  padding-left: 3.25rem;
+  padding-right: 3.25rem;
+  font-weight: 400;
+  font-family: var(--font-ubuntu-sans);
+}
+
+.custom-btn--black {
+  background-color: var(--btn-bg-clr-black);
+  color: var(--btn-text-clr-white);
+}
+
+.custom-btn--dark-salmon {
+  background-color: var(--btn-bg-clr-dark-salmon);
+  color: var(--btn-text-clr-light-gray);
+}

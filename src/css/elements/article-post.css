@@ -1,0 +1,36 @@
+.article-post {
+  width: 100%;
+  @media screen and (min-width: 768px) {
+    width: calc(50% - 20px);
+  }
+  @media screen and (min-width: 992px) {
+    width: auto;
+  }
+  .article-post__image {
+    height: 400px;
+  }
+  .article-post__title {
+    font-size: 1.869em;
+    margin-bottom: 0;
+    color: var(--title-post-clr-black);
+    padding-top: 35px;
+  }
+  .article-post__description {
+    font-size: 1.125em;
+    line-height: 32px;
+    margin-bottom: 0;
+    color: var(--text-clr-dark-gray);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    @media screen and (min-width: 992px) {
+      padding-top: 30px;
+      padding-bottom: 50px;
+    }
+  }
+  .article-post__link {
+    font-size: 1.25em;
+    color: var(--post-link-clr-dark-salmon);
+    text-underline-offset: 7px;
+    text-decoration-thickness: 2px;
+  }
+}
