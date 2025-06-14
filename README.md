@@ -13,9 +13,10 @@ Landing Page moderna y optimizada para promocionar productos tecnológicos como 
 ## 📂 Estructura del proyecto
 ```bash
 drone-landing-page/
-├── design/ # Recursos de diseño (mockups, imágenes, etc.)
+├── design/ # Recursos de diseño (mockups del disenio)
 ├── dist/ # Archivos finales listos para producción
 │ ├── css/
+│ ├── images/
 │ ├── js/
 │ └── index.html
 ├── src/ # Archivos fuente
