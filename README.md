@@ -6,7 +6,7 @@ Landing Page moderna y optimizada para promocionar productos tecnológicos como 
 
 ## 📸 Vista previa
 
-![Vista previa del diseño](./design/preview.png) <!-- Reemplaza con una imagen real si tienes una -->
+![Vista previa del diseño](./design/design-2.jpg) <!-- Reemplaza con una imagen real si tienes una -->
 
 ---
 
