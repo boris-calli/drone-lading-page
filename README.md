@@ -72,23 +72,23 @@ En `package.json`:
 ```bash
 git clone https://github.com/boris-calli/drone-lading-page.git
 cd drone-lading-page
-
+```
 2. Instala dependencias:
 
 ```bash
 npm install
-
+```
 3. Ejecuta entorno de desarrollo:
 
 ```bash
 npm install
 npm run dev
-
+```
 4. Compila todo para producción:
 
 ```bash
 npm run build
-
+```
 📦 Dependencias clave
 rollup y plugins (@rollup/plugin-node-resolve, commonjs, esbuild-minify)
 
