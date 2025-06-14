@@ -11,7 +11,7 @@ Landing Page moderna y optimizada para promocionar productos tecnológicos como 
 ---
 
 ## 📂 Estructura del proyecto
-
+```bash
 drone-landing-page/
 ├── design/ # Recursos de diseño (mockups, imágenes, etc.)
 ├── dist/ # Archivos finales listos para producción
@@ -28,7 +28,7 @@ drone-landing-page/
 ├── postcss.config.js # Configuración de PostCSS
 ├── package.json
 └── README.md
-
+```
 ---
 
 ## 🛠️ Tecnologías utilizadas
@@ -89,32 +89,26 @@ npm run dev
 ```bash
 npm run build
 ```
-📦 Dependencias clave
-rollup y plugins (@rollup/plugin-node-resolve, commonjs, esbuild-minify)
+## 📦 Dependencias clave
+- `rollup` y plugins (`@rollup/plugin-node-resolve`, `commonjs`, `esbuild-minify`)
+- `postcss-cli`, `autoprefixer`, `cssnano`, `postcss-nesting`, `purgecss`
+- `html-minifier` para compresión avanzada del HTML
+- `sass` para compilar Bootstrap desde SCSS
+- `chokidar-cli` y `concurrently` para automatizar el desarrollo
 
-postcss-cli, autoprefixer, cssnano, postcss-nesting, purgecss
-
-html-minifier para compresión avanzada del HTML
-
-sass para compilar Bootstrap desde SCSS
-
-chokidar-cli y concurrently para automatizar el desarrollo
-
-🧪 Producción final
+## 🧪 Producción final
 El código compilado y minificado se encuentra en la carpeta dist/. Contiene:
 
-dist/index.html (minificado)
+- `dist/index.html` (minificado)
+- `dist/css/styles.min.css`
+- `dist/js/scripts.min.js`
 
-dist/css/styles.min.css
-
-dist/js/scripts.min.js
-
-📩 Contacto
+## 📩 Contacto
 Si tienes dudas o deseas contactarme para trabajo freelance, puedes escribirme a:
 
 GitHub: @boris-calli
 
-Email: (completa tu email si deseas)
+Email: boris.v.calli.r@gmail.com
 
-📄 Licencia
+## 📄 Licencia
 Este proyecto está licenciado bajo MIT License.
